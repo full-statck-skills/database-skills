@@ -1,7 +1,7 @@
 {
   "name": "database-skills",
   "version": "1.0.0",
-  "description": "Database skills — PostgreSQL, Oracle, Redis, Elasticsearch",
+  "description": "Database skills",
   "author": {
     "name": "PartMeAI",
     "email": "partmeai@gmail.com"
@@ -14,6 +14,6 @@
     "./skills/mysql",
     "./skills/oracle",
     "./skills/postgresql",
-    "./skills/redis",
+    "./skills/redis"
   ]
 }
