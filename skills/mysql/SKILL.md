@@ -176,3 +176,20 @@ MySQL, Database, RDBMS, SQL, DDL, DML, DQL, DCL, InnoDB, MyISAM, MEMORY, ACID, t
 - examples/02-slow-query-optimization.md — 慢查询优化
 - examples/03-master-slave-setup.md — 主从复制搭建
 - examples/04-backup-strategy.md — 备份策略方案
+
+## 使用流程
+
+### Step 1: 环境准备
+确保开发环境已安装必要的依赖和工具。
+
+### Step 2: 配置初始化
+根据项目需求进行基础配置。
+
+### Step 3: 核心功能使用
+按照示例代码实现核心功能。
+
+### Step 4: 测试验证
+运行测试确保功能正常。
+
+### Step 5: 部署上线
+完成开发后进行部署和监控。
