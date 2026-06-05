@@ -1,0 +1,19 @@
+{
+  "name": "database-skills",
+  "version": "1.0.0",
+  "description": "Database skills — PostgreSQL, Oracle, Redis, Elasticsearch",
+  "author": {
+    "name": "PartMeAI",
+    "email": "partmeai@gmail.com"
+  },
+  "homepage": "https://github.com/full-statck-skills/database-skills",
+  "repository": "https://github.com/full-statck-skills/database-skills",
+  "source": "./",
+  "skills": [
+    "./skills/elasticsearch",
+    "./skills/mysql",
+    "./skills/oracle",
+    "./skills/postgresql",
+    "./skills/redis",
+  ]
+}
