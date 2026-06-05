@@ -1,21 +1,66 @@
+<div align="center">
+
 # database-skills
 
-Part of the [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) ecosystem.
+**Database skills — PostgreSQL, Oracle, Redis, Elasticsearch**
 
-## Install
+[![GitHub](https://img.shields.io/badge/github-full--statck--skills%2Fdatabase-skills-green.svg)](https://github.com/full-statck-skills/database-skills)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Compatible-purple.svg)](https://agentskills.io)
+
+English | [简体中文](./README.zh-CN.md)
+
+[Introduction](#-introduction) ·
+[Install](#-install) ·
+[Skills](#-skills) ·
+[Supported Agents](#-supported-agents) ·
+[Ecosystem](#-ecosystem)
+
+</div>
+
+---
+
+## 📖 Introduction
+
+**Database Skills** is a curated collection of Agent Skills for AI coding agents, part of the [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) ecosystem maintained by [PartMe.AI](https://github.com/partme-ai).
+
+This package includes **5 skills**. Each skill is a self-contained `SKILL.md` file that AI agents load on-demand.
+
+## 📦 Install
 
 ```bash
 npx skills add full-statck-skills/database-skills
 ```
 
-## Skills (5)
+Or install specific skills:
 
-This package includes 5 Agent Skills for AI coding agents.
+```bash
+npx skills add full-statck-skills/database-skills --skill <skill-name>
+```
 
-## Supported Agents
+## 🎯 Skills (5)
 
-Works with [Claude Code](https://code.claude.com), [Codex](https://developers.openai.com/codex), [Cursor](https://cursor.com), [OpenCode](https://opencode.ai), [Gemini CLI](https://geminicli.com), [GitHub Copilot](https://github.com/features/copilot), and [70+ other agents](https://agentskills.io).
+| Skill | Description |
+|-------|-------------|
+| `elasticsearch` | Provides comprehensive guidance for Elasticsearch including indexing, mappings, query DSL, aggregations, analyzers, c... |
+| `mysql` | Provides comprehensive guidance for MySQL including SQL syntax, functions, indexing, optimization, replication, backu... |
+| `oracle` | Provides comprehensive guidance for Oracle database including SQL, PL/SQL, functions, performance tuning (AWR/ASH), b... |
+| `postgresql` | Provides comprehensive guidance for PostgreSQL including SQL syntax, advanced features (JSONB/CTE/Full-text), functio... |
+| `redis` | Provides comprehensive guidance for Redis including data structures (string/hash/list/set/zset/geo/hyperloglog/bitmap... |
 
-## License
+## 🤖 Supported Agents
 
-Apache 2.0
+Works with [Claude Code](https://code.claude.com), [Codex](https://developers.openai.com/codex), [Cursor](https://cursor.com), [OpenCode](https://opencode.ai), [Gemini CLI](https://geminicli.com), [GitHub Copilot](https://github.com/features/copilot), [Windsurf](https://codeium.com/windsurf), and [70+ others](https://agentskills.io/clients).
+
+## 🌐 Ecosystem
+
+| Resource | Link |
+|----------|------|
+| **Full Stack Skills** | [github.com/partme-ai/full-stack-skills](https://github.com/partme-ai/full-stack-skills) |
+| **All Skill Groups** | [github.com/full-statck-skills](https://github.com/full-statck-skills) |
+| **Agent Skills Spec** | [agentskills.io](https://agentskills.io) |
+| **Skills CLI** | [github.com/vercel-labs/skills](https://github.com/vercel-labs/skills) |
+
+## 📄 License
+
+Apache 2.0 — see [LICENSE](LICENSE).
